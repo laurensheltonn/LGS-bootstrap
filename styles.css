@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
   margin-bottom: 0;
   border-radius: 0;
   background-color: #5E4485;
@@ -7,19 +7,19 @@
   font-size: 1.2em;
   border:0;
 }
-.navbar-brand{
+.navbar-brand {
   float:left;
   min-height: 55px;
   padding:0 15px 5px;
 }
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
-  color:#5E4485;
-  background-color:#FFF;
+  color:#FFF;
+  background-color:#5E4485;
 }
-.navbar-inverse .navbar-nav li a{
+.navbar-inverse .navbar-nav li a  {
   color:#D5D5D5;
 }
-.carousel-caption{
+.carousel-caption {
 top: 50%;
 transform: translateY(-50%);
 text-transform: uppercase;
@@ -40,27 +40,32 @@ text-transform: uppercase;
 }
 footer{
   width: 100%;
-  bacground-color: #5E4485;
+  background-color: #5E4485;
   padding: 5%;
   color: #FFF;
 }
 .fa{
   padding: 15px;
-  font-size:30px;
+  font-size:25px;
   color:#FFF;
 }
 .fa:hover{
   color:#D5D5D5;
   text-decoration: none;
 }
-h2{
-  font-size: 1.7em;
-}
-#icon{
-  max-width: 150px;
-}
+@media (max-width: 900px) {
+.fn {
+  font-size: 20px;
+  padding: 10px;
+    }
 @media (max-width: 600px) {
   carousel-caption {
   display:none;
+    }
+    #icon {
+      max-width: 150px;
+    }
+    h2 {
+      font-size: 1.7em;
     }
 }
